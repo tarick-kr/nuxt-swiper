@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-swiper",
+  "version": "1.0.0",
+  "description": "vue-awesome-swiper, vue-infinite-scroll, vuetify, vue-google-tag-manager, vue-styleguidist",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest",
+    "styleguide": "vue-styleguidist server"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.5.4",
+    "@nuxtjs/google-tag-manager": "2.2.1",
+    "@nuxtjs/vuetify": "0.4.3",
+    "nuxt": "^2.5.1",
+    "reqlim": "^0.0.0",
+    "swiper": "6.0.4",
+    "vue-awesome-swiper": "4.1.1",
+    "vue-infinite-scroll": "2.0.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-styleguidist": "^3.17.0"
+  }
+}
